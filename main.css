@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(250, 209, 72);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 40px;
+}
+/** CSS for the header **/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+tr.myfontformat {
+  font-size: 12em;
+  font-family: 'Gabriela', serif;
+  color:white;
+  width: 60%;
+
+}
+/** CSS for fonts **/
+
+h1, h2, h3, h4, p {
+  font-family: 'Gabriela', serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/**Classes for images of Lemon**/
+
+.mugshots {
+  position: relative;
+  z-index: 2;
+}
+
+.border {
+  border-radius: 3%;
+  max-width: 90%;
+}
+
+.lemonimages {
+  position: relative;
+  z-index: 2;
+}
+
+/** Class for lemon icon images **/
+.lemon {
+  text-align: center;
+  margin-left: auto;
+}
+/** Class for lemon slice icon **/
+
+.icon {
+  width:10%;
+  position: absolute;
+  z-index: 3;
+  top: 50px;
+}
+
+.icon2 {
+  width:10%;
+  position: absolute;
+  z-index: 3;
+  top: 120px;
+  left: 900px;
+}
+
+.icon3 {
+  width:10%;
+  position: absolute;
+  z-index: 3;
+  top: 200px;
+  left: 350px;
+}
+
+
+/**CSS to make images display hortizontally**/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+/** CSS for footer**/
+
+#details {
+  border: 3px solid white;
+  background-color: rgb(69, 121, 96);
+  display: flex; 
+  justify-content: center;
+
+}
+
+#details div {
+  float: left;
+  margin-left: auto;
+}
+
+#details div.clean {
+  float: none;
+  clear: both;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/** other elements**/
+
+.line {
+  border-bottom: 3px solid white;
+  display: block;
+}
